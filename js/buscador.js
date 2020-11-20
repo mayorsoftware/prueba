@@ -14,7 +14,7 @@ function LoadCities() {
             }
         },
         error: function (jqXHR, status, error) {
-            alert('Disculpe, ocurrio un problema inesperado');
+            alert('No pudimos conectar a la base de datos. Comprueba el config.php');
             return;
         }
     })
@@ -37,7 +37,7 @@ function LoadTypes() {
             }
         },
         error: function (jqXHR, status, error) {
-            alert('Disculpe, ocurrio un problema inesperado');
+            alert('No pudimos conectar a la base de datos. Comprueba el config.php');
             return;
         }
     })
@@ -61,7 +61,7 @@ function LoadProperties() {
             }
         },
         error: function (jqXHR, status, error) {
-            alert('Disculpe, ocurrio un problema inesperado');
+            alert('No pudimos conectar a la base de datos. Comprueba el config.php');
             return;
         }
     })
@@ -85,7 +85,7 @@ function LoadSavedProperties() {
             }
         },
         error: function (jqXHR, status, error) {
-            alert('Disculpe, ocurrio un problema inesperado');
+            alert('No pudimos conectar a la base de datos. Comprueba el config.php');
             return;
         }
     })
@@ -123,7 +123,7 @@ function search() {
             }
         },
         error: function (jqXHR, status, error) {
-            alert('Disculpe, ocurrio un problema inesperado');
+            alert('No pudimos conectar a la base de datos. Comprueba el config.php');
             return;
         }
     })
@@ -150,7 +150,7 @@ function save(id) {
             }
         },
         error: function (jqXHR, status, error) {
-            alert('Disculpe, ocurrio un problema inesperado');
+            alert('No pudimos conectar a la base de datos. Comprueba el config.php');
             return;
         }
     })
