@@ -20,10 +20,5 @@ if($action=="select")
     $result = select();
 }
 
-if($action=="delete")
-{
-    $property=selectJson($id);
-    saveDataBase($property);
-}
 
 echo json_encode($result);
